@@ -1,0 +1,20 @@
+CODING CHALLENGE FOR SR. QA ENGINEER
+
+Imagine you are part of a team building out a new web application. In this application there will be many screens and workflows that will need to utilize many of the same components, one of them being a dropdown selector. The dropdown may be used for navigation, form input, filtering and more. The requirements for the dropdown go beyond the capabilities of the standard forms offered with out of the box with HTML. Rather than building a new dropdown component for every instance it’s needed in the app, developers are tasked to build out a reusable version. Your task is to test the component with all possible scenarios and automating them. You can pick any complex dropdown example from the internet for this challenge (eg: https://ng-select.github.io/ng-select/ ).
+
+Requirements:
+•    The dropdown component may be used for navigation, form input, filtering and more, so it is important the content can be flexible.
+•    You may use the technology and framework of your choice (bonus points, but definitely not required, for using Protractor/Jasmine/JavaScript)
+•    Please include comments in your submission, instructions on how to execute,  and an overview  of your approach and why you chose the technologies and implementation you did as well as any assumptions made.
+
+At the same time, as your submission, please send a complete project in a .ZIP file or links to Github links or similar along with the documentation how to execute the test scripts in a local environment.
+==========================================================================================================================================================
+
+Rationale for technology that was used:
+Settled down for the example dropdown (ng-select). Since it was Angular, the recommended testing tool for this was Protractor.
+Also this had bonus points, so I assume this was what you wanted to see.
+
+Instruction to execute:
+1. Install Node.js, Jasmine and protractor
+2. To execute, start the Selenium server in the command line by typing "webdriver-manager start"
+3. In another command line, type "protractor conf.js"
